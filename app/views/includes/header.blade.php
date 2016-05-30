@@ -1,12 +1,12 @@
 <div class="navbar-fixed">
-  <nav class="indigo darken-4">
+  <nav class="indigo darken-4" ng-if="!busqueda">
       <div class="nav-wrapper">
       <div class="brand-logo">
         <img src="http://www.daseda.net/img/logo.png" alt="daseda"  class="brand-logo">
       </div>
       <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
       <ul class="right">
-        <li><a href="" class="waves-effect waves-light"><i class="material-icons">search</i></a></li>
+        <li><a class="waves-effect waves-light"><i class="material-icons" ng-click="muestrabusqueda()">search</i></a></li>
       </ul>
       <ul class="right hide-on-med-and-down">
         <li><a href="{{ URL::route('home') }}" class="waves-effect waves-light">Inicio</a></li>
@@ -24,9 +24,15 @@
       </ul>
       </div>
   </nav>
-  <nav class="indigo darken-4">
+  <nav class="indigo darken-4" ng-if="busqueda">
       <div class="nav-wrapper">
-      
+        <form>
+          <div class="input-field">
+            <input id="search" type="search">
+            <label for="search"><i class="material-icons">search</i></label>
+            <i class="material-icons" ng-click="muestrabusqueda()">close</i>
+          </div>
+        </form>
       </div>
   </nav>
 </div>

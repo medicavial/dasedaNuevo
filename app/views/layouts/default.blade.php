@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html ng-app="daseda">
 <head>
     @include('includes.head')
 </head>
