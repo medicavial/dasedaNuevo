@@ -15,6 +15,36 @@ nav .input-field label i{
     color: #444;
 }
 
+.imagen-icon{
+    text-shadow:rgb(44, 57, 127) 0px 0px 0px, 
+                rgb(45, 58, 130) 1px 1px 0px, 
+                rgb(46, 59, 132) 2px 2px 0px, 
+                rgb(47, 61, 135) 3px 3px 0px, 
+                rgb(48, 62, 138) 4px 4px 0px, 
+                rgb(49, 63, 141) 5px 5px 0px, 
+                rgb(50, 64, 144) 6px 6px 0px, 
+                rgb(51, 66, 147) 7px 7px 0px, 
+                rgb(52, 67, 150) 8px 8px 0px, 
+                rgb(53, 68, 152) 9px 9px 0px, 
+                rgb(54, 69, 155) 10px 10px 0px, 
+                rgb(55, 71, 158) 11px 11px 0px, 
+                rgb(56, 72, 161) 12px 12px 0px, 
+                rgb(57, 73, 164) 13px 13px 0px, 
+                rgb(58, 75, 167) 14px 14px 0px, 
+                rgb(59, 76, 170) 15px 15px 0px, 
+                rgb(60, 77, 172) 16px 16px 0px, 
+                rgb(61, 78, 175) 17px 17px 0px, 
+                rgb(62, 80, 178) 18px 18px 0px; 
+    font-size: 120px; 
+    color: rgb(255, 255, 255); 
+    height: 145px; 
+    width: 145px; 
+    line-height: 145px; 
+    border-radius: 12%; 
+    text-align: center; 
+    background-color: rgb(63, 81, 181);
+}
+
 .input-field input[type=search] ~ .mdi-navigation-close, .input-field input[type=search] ~ .material-icons {
     top: -15px;
     color: #444;
@@ -34,23 +64,31 @@ nav .input-field label i{
  color: #3f51b5;
 }
 /* label focus color */
-.input-field input[type=text]:focus + label {
- color: #3f51b5;
+.input-field input[type=text]:focus + label,
+.input-field input[type=email]:focus + label,
+.input-field textarea.materialize-textarea:focus + label{
+    color: #3f51b5;
 }
 /* label underline focus color */
-.input-field input[type=text]:focus {
- border-bottom: 1px solid #3f51b5;
- box-shadow: 0 1px 0 0 #3f51b5;
+.input-field input[type=text]:focus,
+.input-field input[type=email]:focus,
+.input-field textarea.materialize-textarea:focus{
+    border-bottom: 1px solid #3f51b5;
+    box-shadow: 0 1px 0 0 #3f51b5;
 }
 /* valid color */
-.input-field input[type=text].valid {
- border-bottom: 1px solid #3f51b5;
- box-shadow: 0 1px 0 0 #3f51b5;
+.input-field input[type=text].valid,
+.input-field input[type=email].valid,
+.input-field textarea.materialize-textarea.valid{
+    border-bottom: 1px solid #3f51b5;
+    box-shadow: 0 1px 0 0 #3f51b5;
 }
 /* invalid color */
-.input-field input[type=text].invalid {
- border-bottom: 1px solid #3f51b5;
- box-shadow: 0 1px 0 0 #3f51b5;
+.input-field input[type=text].invalid,
+.input-field input[type=email].invalid,
+.input-field textarea.materialize-textarea.invalid{
+    border-bottom: 1px solid #3f51b5;
+    box-shadow: 0 1px 0 0 #3f51b5;
 }
 /* icon prefix focus color */
 .input-field .prefix.active {
