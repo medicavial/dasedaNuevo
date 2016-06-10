@@ -2,32 +2,31 @@ body{
   background-color: #EEEEEE;
 }
 
-/*.brand-logo{
-  font-family: 'Orbitron', sans-serif;
+nav .input-field {
+    margin-top: 15px;
 }
 
-.slider .indicators {
-    bottom: 50px;
-    z-index: 2;
+nav .input-field label {
+    top: -15px;
+    left: 0;
 }
 
-.slider .indicators .indicator-item.active {
-    background-color: #283593;
+nav .input-field label i{
+    color: #444;
 }
 
- .slider .slides {
-    background-color: transparent;
-    margin: 0;
-    height: 400px;
+.input-field input[type=search] ~ .mdi-navigation-close, .input-field input[type=search] ~ .material-icons {
+    top: -15px;
+    color: #444;
 }
 
-.slider .slides li img {
-    height: 100%;
-    width: 100%;
-    background-position: center;
-    background-size:100% auto;
-    background-repeat: no-repeat;
-}*/
+.input-field input[type=search] {
+    color: #444;
+}
+
+.input-field input[type=search]:focus {
+ 
+}
 
 
 /* label color */
@@ -73,6 +72,23 @@ body{
     margin: 0;
     padding: 0;
 }
+
+.results{
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 50px;
+}
+
+.results .collection-item.avatar {
+    min-height: 70px;
+}
+
+
+.results a.collection-item {
+    color: #1a237e;
+}
+
 
 @media only screen and (max-width : 600px) {
     

@@ -24,15 +24,45 @@
       </ul>
       </div>
   </nav>
-  <nav class="indigo darken-4" ng-if="busqueda">
+  <nav class="white" ng-if="busqueda">
       <div class="nav-wrapper">
-        <form>
+        <form class="container">
           <div class="input-field">
-            <input id="search" type="search">
+            <input id="search" type="search" ng-model="query" ng-change="buscaResultados()">
             <label for="search"><i class="material-icons">search</i></label>
             <i class="material-icons" ng-click="muestrabusqueda()">close</i>
           </div>
         </form>
       </div>
   </nav>
+
+  <div class="container collection results  z-depth-3" ng-if="resultadosExpress">
+    <a href="" class="collection-item avatar">
+      <img src="https://www.walmart.com.mx/images/products/img_large/00822248632411l.jpg" alt="" class="circle">
+      <span class="title">Funda con Teclado DGL Negra para Tablet de 7 pulgadas</span>
+      <p>Accesorios</p>
+    </a>
+
+    <a href="" class="collection-item avatar">
+      <img src="https://www.walmart.com.mx/images/products/img_large/00088590978843l.jpg" alt="" class="circle">
+      <span class="title">Smart Cover para iPad Mini Mod. MF059ZM/A</span>
+      <p>Accesorios</p>
+    </a>
+
+    <a href="" class="collection-item avatar">
+      <img src="https://www.walmart.com.mx/images/products/img_large/00693887880785l.jpg" alt="" class="circle">
+      <span class="title">Tablet Tech Pad Xtab 785</span>
+      <p>Tabletas</p>
+    </a>
+
+    <a href="" class="collection-item avatar">
+      <img src="https://www.walmart.com.mx/images/products/img_large/00322248585671l.jpg" alt="" class="circle">
+      <span class="title">MacBook Air 11.6 Pulgadas Intel Core i5 4GB RAM 256 GB</span>
+      <p>Computadoras</p>
+    </a>
+    
+  </div>
+
 </div>
+
+
