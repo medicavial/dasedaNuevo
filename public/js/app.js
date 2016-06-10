@@ -4,7 +4,7 @@
 	*
 	* Description
 	*/
-	angular.module('daseda', [])
+	angular.module('daseda', ['ngMap'])
 	.run(function ($rootScope){
 
 		$rootScope.muestrabusqueda = muestrabusqueda;
@@ -20,6 +20,11 @@
 			$rootScope.resultadosExpress = true;
 		}
 
-	});
+	})
+	.controller('contactoCtrl',contactoCtrl);
+
+	function contactoCtrl(){
+
+	};
 	
 })();

@@ -26,14 +26,15 @@
 							Tenemos todo lo que necesitas para tu smartphone, tableta o computadora, somos distribuidor mayorista de médios de grabación y respaldo (CD y DVD).
 						</p>
 		    		</div>
-		    		<div class="col m6">
-		    			<i class="material-icons">add</i>
-		    		</div>
+		    		<div class="col m6 center-align">
+		    			<i class="zmdi zmdi-smartphone imagen-icon"></i>						
+					</div>
 		    	</div>
 				<br>
+				<br>
 				<div class="row">
-					<div class="col m6">
-						<i class="material-icons">add</i>
+					<div class="col m6 center-align">
+		    			<i class="zmdi zmdi-arrows imagen-icon"></i>						
 					</div>
 					<div class="col m6">
 						<span class="card-title grey-text text-darken-4">Visión</span>
@@ -53,8 +54,8 @@
 				    		Somos una empresa dedicada a la distribución de medios de grabación y respaldo, nuestro objetivo es satisfacer las necesidades de nuestros clientes en el ramo.
 						</p>
 					</div>
-					<div class="col m6">
-						<i class="material-icons">add</i>
+					<div class="col m6 center-align">
+		    			<i class="zmdi zmdi-book imagen-icon"></i>						
 					</div>
 				</div>
 		    </div>

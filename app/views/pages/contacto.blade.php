@@ -8,7 +8,7 @@
 	    top: 64px;
 	    z-index: 0;">
 	</div> -->
-	<section class="container">
+	<section class="container" ng-controller="contactoCtrl as vm">
 		<div class="card">
 		    <div class="card-image">
 		      	<img class="activator" src="http://www.leodan.com.mx/img/bannercontacto.jpg">
@@ -25,13 +25,18 @@
 						</p>
 		    		</div>
 		    		<div class="col m6">
-		    			<i class="material-icons">add</i>
+		  
+					  		<ng-map center="19.4305963,-99.1409636" zoom="17">
+					  			<marker position="Lázaro Cárdenas 54, Centro, 06000 Ciudad de México" title="Daseda" centered="true"></marker>
+					  		</ng-map>
+						
 		    		</div>
 		    	</div>
 				<br>
+				<br>
 				<div class="row">
-					<div class="col m6">
-						<i class="material-icons">add</i>
+					<div class="col m6 center-align">
+		    			<i class="zmdi zmdi-phone imagen-icon"></i>						
 					</div>
 					<div class="col m6">
 						<span class="card-title grey-text text-darken-4">Contactanos</span>
@@ -44,6 +49,11 @@
 						</p>
 					</div>
 				</div>
+				
+				<br>
+				<br>
+				<br>
+
 				<div class="row">
 					<div class="col m6">
 						<span class="card-title grey-text text-darken-4">Nuestras Redes Sociales</span>
@@ -55,10 +65,15 @@
 					    	<a class="btn-large red btn-floating waves-effect waves-light btn-flat"><i class="zmdi zmdi-google-plus"></i></a>							
 						</div>
 					</div>
-		    		<div class="col m6">
-		    			<i class="material-icons">add</i>
-		    		</div>
+		    		<div class="col m6 center-align">
+		    			<i class="zmdi zmdi-share imagen-icon"></i>						
+					</div>
 				</div>
+
+				<br>
+				<br>
+				<br>
+
 				<div class="row">
 					<div class="col m12">
 						<div class="center-align">
