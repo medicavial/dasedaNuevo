@@ -16,29 +16,83 @@
 		    </div>
 		  
 		    <div class="card-content">
-		    	<span class="card-title grey-text text-darken-4">Acérca de DASEDA</span>
-		    	<div class="divider"></div>
-		    	<p>
-		    		Nosotros somos expertos en ofrecer productos y servicios de la mejor calidad al mejor precio.
-					Tenemos todo lo que necesitas para tu smartphone, tableta o computadora, somos distribuidor mayorista de médios de grabación y respaldo (CD y DVD).
-				</p>
+		    	<div class="row">
+		    		<div class="col m6">		    			
+				    	<span class="card-title grey-text text-darken-4">¿Donde estamos?</span>
+				    	<div class="divider"></div>
+				    	<p>
+				    		Eje Central Lazaro Cardenas 54 Local 303 Segundo Piso,México D.F.
+						</p>
+		    		</div>
+		    		<div class="col m6">
+		    			<i class="material-icons">add</i>
+		    		</div>
+		    	</div>
 				<br>
 				<div class="row">
 					<div class="col m6">
-						<span class="card-title grey-text text-darken-4">Misión</span>
-						<div class="divider"></div>
-						<br>
-				    	<p>
-				    		Somos una empresa dedicada a la distribución de medios de grabación y respaldo, nuestro objetivo es satisfacer las necesidades de nuestros clientes en el ramo.
-						</p>
+						<i class="material-icons">add</i>
 					</div>
 					<div class="col m6">
-						<span class="card-title grey-text text-darken-4">Visión</span>
+						<span class="card-title grey-text text-darken-4">Contactanos</span>
 						<div class="divider"></div>
 						<br>
-				    	<p>
-				    		Ofrecer productos de la mejor calidad al mejor precio del mercado Contamos con la gama mas amplia de CD, DVD, minis, lightscribe, printables y blu ray, asi como estuches para cd y dvd.
+						<p>
+					    	Telefono: 55-18-17-47 <br>
+							Whats App: 55-18-00-42-82 / 55-32-24-34-59 <br>
+							Email: info@daseda.net							
 						</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col m6">
+						<span class="card-title grey-text text-darken-4">Nuestras Redes Sociales</span>
+						<div class="divider"></div>
+						<br>
+						<div class="center-align">
+					    	<a class="btn-large red btn-floating waves-effect waves-light btn-flat"><i class="zmdi zmdi-facebook"></i></a>
+					    	<a class="btn-large red btn-floating waves-effect waves-light btn-flat"><i class="zmdi zmdi-twitter"></i></a>
+					    	<a class="btn-large red btn-floating waves-effect waves-light btn-flat"><i class="zmdi zmdi-google-plus"></i></a>							
+						</div>
+					</div>
+		    		<div class="col m6">
+		    			<i class="material-icons">add</i>
+		    		</div>
+				</div>
+				<div class="row">
+					<div class="col m12">
+						<div class="center-align">
+							<span class="card-title grey-text text-darken-4">¿Tienes Dudas o Algun Comentario?...Escribenos</span>							
+						</div>
+						<div class="divider"></div>
+						<br>
+				    	<div class="row">
+						    <form class="col s12">
+						      <div class="row">
+						        <div class="input-field col s12">
+						          <input id="nombre" type="text" class="validate">
+						          <label for="nombre">Tu Nombre *</label>
+						        </div>
+						      </div>						   
+						      <div class="row">
+						        <div class="input-field col s12">
+						          <input id="mail" type="email" class="validate">
+						          <label for="mail">Tu E-mail *</label>
+						        </div>
+						      </div>
+						      <div class="row">
+						        <div class="input-field col s12">
+						          <textarea id="textarea1" class="materialize-textarea"></textarea>
+						          <label for="textarea1">Tu Mensaje *</label>
+						        </div>
+						      </div>
+						    </form>
+							<div class="center-align">
+								<button class="btn waves-effect waves-light red" type="submit" name="action">Enviar
+								    <i class="material-icons right">send</i>
+								</button>
+							</div>
+						</div>
 					</div>
 				</div>
 		    </div>
