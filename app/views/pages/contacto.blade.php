@@ -11,7 +11,7 @@
 	<section class="container" ng-controller="contactoCtrl as vm">
 		<div class="card">
 		    <div class="card-image">
-		      	<img class="activator" src="http://www.leodan.com.mx/img/bannercontacto.jpg">
+		      	<img class="activator" src="img/contacto.jpg">
 		      	<span class="card-title">CONTACTANOS</span>
 		    </div>
 		  
@@ -49,7 +49,7 @@
 						</p>
 					</div>
 				</div>
-				
+
 				<br>
 				<br>
 				<br>

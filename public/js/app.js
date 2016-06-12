@@ -7,6 +7,8 @@
 	angular.module('daseda', ['ngMap'])
 	.run(function ($rootScope){
 
+		$rootScope.resultadosExpress = false;
+		$rootScope.resultadosExpress = false;
 		$rootScope.muestrabusqueda = muestrabusqueda;
 		$rootScope.buscaResultados = buscaResultados;
 

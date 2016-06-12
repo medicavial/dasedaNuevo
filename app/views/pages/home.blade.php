@@ -41,7 +41,7 @@
 
 			<div class="row">
 
-				<div class="col s12 m6 l4 product">
+				<div class="col s12 m6 l4 product delay-03s animated wow fadeInUp">
 					<div class="card hoverable">
 
 					    <div class="card-image waves-effect waves-block waves-light">
@@ -75,13 +75,13 @@
 								<a class="waves-effect waves-light btn red"><i class="zmdi zmdi-shopping-cart-plus left"></i>Agregar a carrito</a>
 								<br>
 								<br>
-								<a href="producto.html" class="waves-effect waves-light btn indigo darken-3"><i class="material-icons left">library_books</i>Descubre Más</a>
+								<a href="{{ URL::route('producto',array('producto' => 'producto-prueba')) }}" class="waves-effect waves-light btn indigo darken-3"><i class="material-icons left">library_books</i>Descubre Más</a>
 							</div>
 					    </div>
 					</div>
 				</div>
 
-				<div class="col s12 m6 l4 product">
+				<div class="col s12 m6 l4 product delay-03s animated wow fadeInUp">
 					<div class="card hoverable">
 					    <div class="card-image waves-effect waves-block waves-light">
 					    	<div class="nuevo  light-blue darken-1">Nuevo</div>
@@ -106,13 +106,13 @@
 								<a class="waves-effect waves-light btn red"><i class="zmdi zmdi-shopping-cart-plus left"></i>Agregar a carrito</a>
 								<br>
 								<br>
-								<a href="producto.html" class="waves-effect waves-light btn indigo darken-3"><i class="material-icons left">library_books</i>Descubre Más</a>
+								<a href="{{ URL::route('producto',array('producto' => 'producto-prueba')) }}" class="waves-effect waves-light btn indigo darken-3"><i class="material-icons left">library_books</i>Descubre Más</a>
 							</div>
 					    </div>
 					</div>
 				</div>
 
-				<div class="col s12 m6 l4 product">
+				<div class="col s12 m6 l4 product delay-03s animated wow fadeInUp">
 					<div class="card hoverable">
 					    <div class="card-image waves-effect waves-block waves-light">
 							<img class="activator" src="https://www.walmart.com.mx/images/products/img_large/00081698301005l.jpg">
@@ -137,13 +137,13 @@
 								<a class="waves-effect waves-light btn red"><i class="zmdi zmdi-shopping-cart-plus left"></i>Agregar a carrito</a>
 								<br>
 								<br>
-								<a href="producto.html" class="waves-effect waves-light btn indigo darken-3"><i class="material-icons left">library_books</i>Descubre Más</a>
+								<a href="{{ URL::route('producto',array('producto' => 'producto-prueba')) }}" class="waves-effect waves-light btn indigo darken-3"><i class="material-icons left">library_books</i>Descubre Más</a>
 							</div>
 					    </div>
 					</div>
 				</div>
 
-				<div class="col s12 m6 l4 product">
+				<div class="col s12 m6 l4 product delay-03s animated wow fadeInUp">
 					<div class="card hoverable">
 					    <div class="card-image waves-effect waves-block waves-light">
 					      <img class="activator" src="https://www.walmart.com.mx/images/products/img_large/00322248585671l.jpg">
@@ -168,13 +168,13 @@
 								<a class="waves-effect waves-light btn red"><i class="zmdi zmdi-shopping-cart-plus left"></i>Agregar a carrito</a>
 								<br>
 								<br>
-								<a href="producto.html" class="waves-effect waves-light btn indigo darken-3"><i class="material-icons left">library_books</i>Descubre Más</a>
+								<a href="{{ URL::route('producto',array('producto' => 'producto-prueba')) }}" class="waves-effect waves-light btn indigo darken-3"><i class="material-icons left">library_books</i>Descubre Más</a>
 							</div>
 					    </div>
 					</div>
 				</div>
 
-				<div class="col s12 m6 l4 product">
+				<div class="col s12 m6 l4 product delay-03s animated wow fadeInUp">
 					<div class="card hoverable">
 					    <div class="card-image waves-effect waves-block waves-light">
 					    	<div class="descuento  red darken-4">Oferta</div>
@@ -203,13 +203,13 @@
 								<a class="waves-effect waves-light btn red"><i class="zmdi zmdi-shopping-cart-plus left"></i>Agregar a carrito</a>
 								<br>
 								<br>
-								<a href="producto.html" class="waves-effect waves-light btn indigo darken-3"><i class="material-icons left">library_books</i>Descubre Más</a>
+								<a href="{{ URL::route('producto',array('producto' => 'producto-prueba')) }}" class="waves-effect waves-light btn indigo darken-3"><i class="material-icons left">library_books</i>Descubre Más</a>
 							</div>
 					    </div>
 					</div>
 				</div>
 
-				<div class="col s12 m6 l4 product">
+				<div class="col s12 m6 l4 product delay-03s animated wow fadeInUp">
 					<div class="card hoverable">
 					    <div class="card-image waves-effect waves-block waves-light">
 					      <img class="activator" src="http://ecx.images-amazon.com/images/I/71K5iaccfXL._SL1500_.jpg">
@@ -233,13 +233,13 @@
 								<a class="waves-effect waves-light btn red"><i class="zmdi zmdi-shopping-cart-plus left"></i>Agregar a carrito</a>
 								<br>
 								<br>
-								<a href="producto.html" class="waves-effect waves-light btn indigo darken-3"><i class="material-icons left">library_books</i>Descubre Más</a>
+								<a href="{{ URL::route('producto',array('producto' => 'producto-prueba')) }}" class="waves-effect waves-light btn indigo darken-3"><i class="material-icons left">library_books</i>Descubre Más</a>
 							</div>
 					    </div>
 					</div>
 				</div>
 
-				<div class="col s12 m6 l4 product">
+				<div class="col s12 m6 l4 product delay-03s animated wow fadeInUp">
 					<div class="card hoverable">
 					    <div class="card-image waves-effect waves-block waves-light">
 					      <img class="activator" src="http://ecx.images-amazon.com/images/I/61K65GMnJnL._SL1100_.jpg">
@@ -264,13 +264,13 @@
 								<a class="waves-effect waves-light btn red"><i class="zmdi zmdi-shopping-cart-plus left"></i>Agregar a carrito</a>
 								<br>
 								<br>
-								<a href="producto.html" class="waves-effect waves-light btn indigo darken-3"><i class="material-icons left">library_books</i>Descubre Más</a>
+								<a href="{{ URL::route('producto',array('producto' => 'producto-prueba')) }}" class="waves-effect waves-light btn indigo darken-3"><i class="material-icons left">library_books</i>Descubre Más</a>
 							</div>
 					    </div>
 					</div>
 				</div>
 
-				<div class="col s12 m6 l4 product">
+				<div class="col s12 m6 l4 product delay-03s animated wow fadeInUp">
 					<div class="card hoverable">
 					    <div class="card-image waves-effect waves-block waves-light">
 					      <img class="activator" src="https://www.walmart.com.mx/images/products/img_large/00471236696194l.jpg">
@@ -295,13 +295,13 @@
 								<a class="waves-effect waves-light btn red"><i class="zmdi zmdi-shopping-cart-plus left"></i>Agregar a carrito</a>
 								<br>
 								<br>
-								<a href="producto.html" class="waves-effect waves-light btn indigo darken-3"><i class="material-icons left">library_books</i>Descubre Más</a>
+								<a href="{{ URL::route('producto',array('producto' => 'producto-prueba')) }}" class="waves-effect waves-light btn indigo darken-3"><i class="material-icons left">library_books</i>Descubre Más</a>
 							</div>
 					    </div>
 					</div>
 				</div>
 
-				<div class="col s12 m6 l4 product">
+				<div class="col s12 m6 l4 product delay-03s animated wow fadeInUp">
 					<div class="card hoverable">
 					    <div class="card-image waves-effect waves-block waves-light">
 					    	<div class="nuevo  light-blue darken-1">Nuevo</div>
@@ -326,7 +326,7 @@
 								<a class="waves-effect waves-light btn red"><i class="zmdi zmdi-shopping-cart-plus left"></i>Agregar a carrito</a>
 								<br>
 								<br>
-								<a href="producto.html" class="waves-effect waves-light btn indigo darken-3"><i class="material-icons left">library_books</i>Descubre Más</a>
+								<a href="{{ URL::route('producto',array('producto' => 'producto-prueba')) }}" class="waves-effect waves-light btn indigo darken-3"><i class="material-icons left">library_books</i>Descubre Más</a>
 							</div>
 					    </div>
 					</div>
@@ -338,7 +338,7 @@
 		</artcle>
 		<div class="divider"></div>
 		<br>
-		<article class="card destacado">
+		<article class="card destacado delay-03s animated wow fadeInUp">
 			<div class="card-content">
               	<span class="card-title">Producto destacado</span>         
 				<p>Daseda la tiene para ti a un precio que no podras creer y así estar a la moda.</p>
@@ -360,7 +360,7 @@
 					<a class="waves-effect waves-light btn red"><i class="zmdi zmdi-shopping-cart-plus left"></i>Agregar a carrito</a>
 					<br>
 					<br>
-					<a href="producto.html" class="waves-effect waves-light btn indigo darken-3"><i class="material-icons left">library_books</i>Descubre Más</a>
+					<a href="{{ URL::route('producto',array('producto' => 'producto-prueba')) }}" class="waves-effect waves-light btn indigo darken-3"><i class="material-icons left">library_books</i>Descubre Más</a>
 				</div>
             </div>
 		</article>

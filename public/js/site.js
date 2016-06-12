@@ -13,4 +13,6 @@ $( document ).ready(function(){
 		height: 400
 	});
     $('.tooltipped').tooltip({delay: 50});
+
+    new WOW().init();
 })

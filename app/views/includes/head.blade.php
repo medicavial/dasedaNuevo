@@ -9,5 +9,6 @@
 <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 <link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'>
 <link type="text/css" rel="stylesheet" href="{{ URL::asset('vendor/Materialize/dist/css/materialize.min.css') }}"  media="screen,projection"/>
+<link rel="stylesheet" href="{{ URL::asset('vendor/animate.css/animate.min.css') }}">
 <link rel="stylesheet" href="{{ URL::asset('css/material-design-iconic-font.min.css') }}">
 <link rel="stylesheet" href="{{ URL::asset('css/style.css') }}">
