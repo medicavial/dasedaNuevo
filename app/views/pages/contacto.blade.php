@@ -1,13 +1,6 @@
 @extends('layouts.default')
 @section('content')
-	<!-- <div style="
-	    position: absolute;
-	    background: #1A237E;
-	    width: 100%;
-	    height: 200px;
-	    top: 64px;
-	    z-index: 0;">
-	</div> -->
+
 	<section class="container" ng-controller="contactoCtrl as vm">
 		<div class="card">
 		    <div class="card-image">
