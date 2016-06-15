@@ -10,13 +10,6 @@
 	</nav>
 	<section class="row">
 		<aside class="col m2">
-			<ul class="collection with-header z-depth-1">
-		        <li class="collection-header"><h3>Marcas</h3></li>
-		        <li class="collection-item">Stylos</li>
-		        <li class="collection-item">HP</li>
-		        <li class="collection-item">Sony</li>
-		        <li class="collection-item">Kingston</li>
-		    </ul>
 		    <br>
 		    <ul class="collection with-header z-depth-1">
 		        <li class="collection-header"><h3>Categorias</h3></li>
@@ -26,20 +19,12 @@
 		        <li class="collection-item">Disco Duro</li>
 		        <li class="collection-item">Audifonos</li>
 		    </ul>
-		    <br>
-		    <ul class="collection with-header z-depth-1">
-		        <li class="collection-header"><h3>Precios</h3></li>
-				<li class="collection-item">$10 - $200</li>
-		        <li class="collection-item">$210 - $500</li>
-		        <li class="collection-item">$510 - $1,000</li>
-		        <li class="collection-item">+ $1,000</li>
-		    </ul>
 		</aside>
 		<artcle class="col s12 m10">
 
 			<div class="row" >
 
-				<div class="col s12 m6 l4 product">
+				<div class="col s12 m6 l4 product product delay-03s animated wow fadeInUp">
 					<div class="card hoverable">
 
 					    <div class="card-image waves-effect waves-block waves-light">
@@ -79,7 +64,7 @@
 					</div>
 				</div>
 
-				<div class="col s12 m6 l4 product">
+				<div class="col s12 m6 l4 product product delay-03s animated wow fadeInUp">
 					<div class="card hoverable">
 					    <div class="card-image waves-effect waves-block waves-light">
 					    	<div class="nuevo  light-blue darken-1">Nuevo</div>
@@ -110,7 +95,7 @@
 					</div>
 				</div>
 
-				<div class="col s12 m6 l4 product">
+				<div class="col s12 m6 l4 product product delay-03s animated wow fadeInUp">
 					<div class="card hoverable">
 					    <div class="card-image waves-effect waves-block waves-light">
 							<img class="activator" src="http://www.walmart.com.mx/images/products/img_large/00081698301005l.jpg">
@@ -144,7 +129,7 @@
 
 			</div>
 			<div class="row" >
-				<div class="col s12 m6 l4 product">
+				<div class="col s12 m6 l4 product product delay-03s animated wow fadeInUp">
 					<div class="card hoverable">
 					    <div class="card-image waves-effect waves-block waves-light">
 					      <img class="activator" src="http://www.walmart.com.mx/images/products/img_large/00322248585671l.jpg">
@@ -177,7 +162,7 @@
 					</div>
 				</div>
 
-				<div class="col s12 m6 l4 product">
+				<div class="col s12 m6 l4 product product delay-03s animated wow fadeInUp">
 					<div class="card hoverable">
 					    <div class="card-image waves-effect waves-block waves-light">
 					    	<div class="descuento  red darken-4">Oferta</div>
@@ -213,7 +198,7 @@
 					</div>
 				</div>
 
-				<div class="col s12 m6 l4 product">
+				<div class="col s12 m6 l4 product product delay-03s animated wow fadeInUp">
 					<div class="card hoverable">
 					    <div class="card-image waves-effect waves-block waves-light">
 					      <img class="activator" src="http://ecx.images-amazon.com/images/I/71K5iaccfXL._SL1500_.jpg">
@@ -248,7 +233,7 @@
 			</div>
 			<div class="row" >
 
-				<div class="col s12 m6 l4 product">
+				<div class="col s12 m6 l4 product product delay-03s animated wow fadeInUp">
 					<div class="card hoverable">
 					    <div class="card-image waves-effect waves-block waves-light">
 					      <img class="activator" src="http://ecx.images-amazon.com/images/I/61K65GMnJnL._SL1100_.jpg">
@@ -279,7 +264,7 @@
 					</div>
 				</div>
 
-				<div class="col s12 m6 l4 product">
+				<div class="col s12 m6 l4 product product delay-03s animated wow fadeInUp">
 					<div class="card hoverable">
 					    <div class="card-image waves-effect waves-block waves-light">
 					      <img class="activator" src="http://www.walmart.com.mx/images/products/img_large/00471236696194l.jpg">
@@ -310,7 +295,7 @@
 					</div>
 				</div>
 
-				<div class="col s12 m6 l4 product">
+				<div class="col s12 m6 l4 product product delay-03s animated wow fadeInUp">
 					<div class="card hoverable">
 					    <div class="card-image waves-effect waves-block waves-light">
 					    	<div class="nuevo  light-blue darken-1">Nuevo</div>

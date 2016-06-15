@@ -12,14 +12,14 @@
         <li><a href="{{ URL::route('home') }}" class="waves-effect waves-light">Inicio</a></li>
         <li><a href="{{ URL::route('nosotros') }}" class="waves-effect waves-light">Nosotros</a></li>
         <li><a href="{{ URL::route('productos') }}" class="waves-effect waves-light">Productos</a></li>
-        <li><a href="{{ URL::route('productos') }}" class="waves-effect waves-light">Servicios</a></li>
+        <li><a href="{{ URL::route('servicios') }}" class="waves-effect waves-light">Servicios</a></li>
         <li><a href="{{ URL::route('contacto') }}" class="waves-effect waves-light">Contacto</a></li>
       </ul>
       <ul class="side-nav" id="mobile-demo">
         <li><a href="{{ URL::route('home') }}" class="waves-effect waves-light">Inicio</a></li>
         <li><a href="{{ URL::route('nosotros') }}" class="waves-effect waves-light">Nosotros</a></li>
         <li><a href="{{ URL::route('productos') }}" class="waves-effect waves-light">Productos</a></li>
-        <li><a href="{{ URL::route('productos') }}" class="waves-effect waves-light">Servicios</a></li>
+        <li><a href="{{ URL::route('servicios') }}" class="waves-effect waves-light">Servicios</a></li>
         <li><a href="{{ URL::route('contacto') }}" class="waves-effect waves-light">Contacto</a></li>
       </ul>
       </div>

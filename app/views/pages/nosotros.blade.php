@@ -1,18 +1,11 @@
 @extends('layouts.default')
 
 @section('content')
-	<!-- <div style="
-	    position: absolute;
-	    background: #1A237E;
-	    width: 100%;
-	    height: 200px;
-	    top: 50px;
-	    z-index: 0;">
-	</div> -->
+
 	<section class="container">
 		<div class="card">
 		    <div class="card-image">
-		      	<img class="activator" src="http://www.mrmedik.com.mx/wp-content/uploads/2015/01/TRABAJE-CON-NOSOTROS-980x2981.jpg">
+		      	<img class="activator" src="img/nosotros.jpg">
 		      	<span class="card-title">NOSOTROS</span>
 		    </div>
 		  
@@ -45,6 +38,7 @@
 						</p>
 					</div>
 				</div>
+				<br><br>
 				<div class="row">
 					<div class="col m6">
 						<span class="card-title grey-text text-darken-4">Misión</span>

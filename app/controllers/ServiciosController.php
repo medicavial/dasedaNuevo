@@ -10,7 +10,7 @@ class ServiciosController extends Controller {
 
 	protected function index(){
 
-		return View::make('pages.productos');
+		return View::make('pages.servicios');
 	}
 
 }
