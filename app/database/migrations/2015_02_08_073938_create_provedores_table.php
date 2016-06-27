@@ -12,7 +12,7 @@ class CreateProvedoresTable extends Migration {
 	 */
 	public function up()
 	{
-		Schema::create('provedores', function(Blueprint $table)
+		Schema::create('providers', function(Blueprint $table)
 		{
 			$table->increments('id');
 			$table->string('nombre')->unique();
@@ -36,7 +36,7 @@ class CreateProvedoresTable extends Migration {
 	 */
 	public function down()
 	{
-		Schema::drop('provedores');
+		Schema::drop('providers');
 	}
 
 }

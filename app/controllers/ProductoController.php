@@ -1,6 +1,6 @@
 <?php
 
-class ProductosController extends Controller {
+class ProductoController extends Controller {
 
 	/**
 	 * Setup the layout used by the controller.

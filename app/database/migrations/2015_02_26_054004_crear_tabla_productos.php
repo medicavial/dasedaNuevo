@@ -32,6 +32,7 @@ class CrearTablaProductos extends Migration {
 			$table->foreign('brand_id')->references('id')->on('brands')->onDelete('cascade');
 			$table->integer('provider_id')->unsigned();
 			$table->foreign('provider_id')->references('id')->on('providers')->onDelete('cascade');
+			$table->string('url')->unique();
 			$table->timestamps();
 		});
 	}

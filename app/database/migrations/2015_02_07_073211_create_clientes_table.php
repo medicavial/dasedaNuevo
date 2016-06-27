@@ -12,7 +12,7 @@ class CreateClientesTable extends Migration {
 	 */
 	public function up()
 	{
-		Schema::create('clientes', function(Blueprint $table)
+		Schema::create('customers', function(Blueprint $table)
 		{
 			$table->increments('id');
 			$table->string('nombre');
@@ -35,7 +35,7 @@ class CreateClientesTable extends Migration {
 	 */
 	public function down()
 	{
-		Schema::drop('clientes');
+		Schema::drop('customers');
 	}
 
 }
