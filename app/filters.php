@@ -88,3 +88,39 @@ Route::filter('csrf', function()
 		throw new Illuminate\Session\TokenMismatchException;
 	}
 });
+
+
+// Filtro personalizado para verificar el token
+Route::filter('authenticate', function($route, $request) {
+
+	$url = $request->path();
+	$token = $request->header('Token');
+
+	// verificar si no es un logueo
+	if ($url != 'api/login' && $url != 'api/logout') {
+		
+		// verificar que tenga el token
+		if ($token) {
+			
+			$user = User::where('remember_token', $token)
+			          ->first();
+
+			if ($user->count() > 0) {
+				
+			  	Auth::onceUsingId($user->id); // Authorize the user for this one request
+
+			} else {
+
+			  return 'Api Key es invalida'; 
+
+			}
+
+		}else {
+
+			return 'Api Key es necesaria'; 
+
+		}
+
+	}
+
+});
