@@ -37,7 +37,6 @@
 						<br>
 						<p>
 					    	Telefono: 55-18-17-47 <br>
-							Whats App: 55-18-00-42-82 / 55-32-24-34-59 <br>
 							Email: info@daseda.net							
 						</p>
 					</div>
@@ -53,9 +52,21 @@
 						<div class="divider"></div>
 						<br>
 						<div class="center-align">
-					    	<a class="btn-large red btn-floating waves-effect waves-light btn-flat"><i class="zmdi zmdi-facebook"></i></a>
-					    	<a class="btn-large red btn-floating waves-effect waves-light btn-flat"><i class="zmdi zmdi-twitter"></i></a>
-					    	<a class="btn-large red btn-floating waves-effect waves-light btn-flat"><i class="zmdi zmdi-google-plus"></i></a>							
+							<div class="row">
+								<div class="col m6">
+					    			<iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Fdaseda.mexico&width=92&layout=box_count&action=like&size=large&show_faces=true&share=true&height=65&appId" width="92" height="65" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe> <br>									
+								</div>
+								<div class="col m6">
+					    			<a href="https://twitter.com/dasedaMx" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @dasedaMx</a> <br>									
+								</div>
+								<div class="col m6">
+					    			<div class="g-plusone" data-href="https://plus.google.com/b/115657013177590898074/115657013177590898074?hl=es"></div>									
+								</div>
+								
+							</div>
+					    	<!-- <a class="btn-large red btn-floating waves-effect waves-light btn-flat"><i class="zmdi zmdi-facebook"></i></a> -->
+					    	<!-- <a class="btn-large red btn-floating waves-effect waves-light btn-flat"><i class="zmdi zmdi-twitter"></i></a> -->
+					    	<!-- <a class="btn-large red btn-floating waves-effect waves-light btn-flat"><i class="zmdi zmdi-google-plus"></i></a>-->
 						</div>
 					</div>
 		    		<div class="col m6 center-align">
@@ -107,5 +118,13 @@
 		    
 		</div>
 	</section>
+	
+	<!-- Inserta esta etiqueta en la sección "head" o justo antes de la etiqueta "body" de cierre. -->
+<script src="https://apis.google.com/js/platform.js" async defer>
+  {lang: 'es-419'}
+</script>
+<!-- Inserta esta etiqueta donde quieras que aparezca Botón +1. -->
+
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 
 @stop

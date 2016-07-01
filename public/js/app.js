@@ -4,7 +4,7 @@
 	*
 	* Description
 	*/
-	angular.module('daseda', ['ngMap'])
+	angular.module('daseda', ['ngMap','angular-carousel'])
 	.run(function ($rootScope){
 
 		$rootScope.resultadosExpress = false;

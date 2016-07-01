@@ -8,11 +8,10 @@ $( document ).ready(function(){
 		edge: 'right',
 		menuWidth: 300
 	});
-	$('.slider').slider({
-		full_width: true,
-		height: 400
-	});
+
     $('.tooltipped').tooltip({delay: 50});
 
-    new WOW().init();
+    new WOW().init();	
+	
+
 })
