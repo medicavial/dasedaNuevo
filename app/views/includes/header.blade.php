@@ -2,7 +2,7 @@
   <nav class="indigo darken-4" ng-if="!busqueda">
       <div class="nav-wrapper">
       <div class="brand-logo">
-        <img src="http://www.daseda.net/img/logo.png" alt="daseda"  class="brand-logo">
+        <img src="{{ URL::asset('img/logo.png') }}" alt="daseda"  class="brand-logo">
       </div>
       <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
       <ul class="right">

@@ -1,42 +1,25 @@
 @extends('layouts.default')
 @section('content')
-    
-    <div class="slider">
-	    <ul class="slides">
-	      <li>
-	        <img src="http://g-ecx.images-amazon.com/images/G/33/img15/x-site/superhero/24841_MX_X-site_August11_Outlet-Event_1500X300-Superhero-gateway-2._V314501854_.jpg"> <!-- random image -->
-	        <!-- <div class="caption center-align">
-	          <h3>This is our big Tagline!</h3>
-	          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-	        </div> -->
-	      </li>
-	      <li>
-	        <img src="http://g-ecx.images-amazon.com/images/G/33/img15/x-site/superhero/23458_xsite_mx_gw-superhero1x._V316087840_.jpg"> <!-- random image -->
-	        <!-- <div class="caption left-align">
-	          <h3>Left Aligned Caption</h3>
-	          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-	        </div> -->
-	      </li>
-	      <li>
-	        <img src="http://g-ecx.images-amazon.com/images/G/33/img15/consumer-electronics/superhero/25058_mx_ce_gw-superhero_1x._V312928996_.jpg"> <!-- random image -->
-	        <!-- <div class="caption right-align">
-	          <h3>Right Aligned Caption</h3>
-	          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-	        </div> -->
-	      </li>
-	      <li>
-	        <img src="http://g-ecx.images-amazon.com/images/G/33/kindle/merch/2015/campaign/KM/BTS/km-mx-bts_gw-superhero-1500x300._V314475565_.jpg"> <!-- random image -->
-	        <!-- <div class="caption center-align">
-	          <h3>This is our big Tagline!</h3>
-	          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-	        </div> -->
-	      </li>
-	    </ul>
-	</div>
+   
+    <ul rn-carousel rn-carousel-controls rn-carousel-duration="600" rn-carousel-auto-slide="5" rn-carousel-buffered rn-carousel-controls-allow-loop class="slider">
+		<li>
+			<img src="img/slide1.jpg">    
+		</li>
+		<li>
+			<img src="img/slide2.jpg">
+		</li>
+		<li>
+			<img src="img/slide3.jpg">
+		</li>
+    </ul>
+
+
 
 	<br>
 	<section class="container">
 			
+
+
 		<artcle>
 
 			<div class="row">

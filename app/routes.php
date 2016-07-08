@@ -14,7 +14,7 @@
 Route::get('/', ['as' => 'home', 'uses' => 'InicioController@index']);
 Route::get('/nosotros', ['as' => 'nosotros', 'uses' => 'NosotrosController@index']);
 Route::get('/productos', ['as' => 'productos', 'uses' => 'ProductoController@index']);
-Route::get('/detalle/{producto}', ['as' => 'producto', 'uses' => 'ProductosController@producto']);
+Route::get('/detalle/{producto}', ['as' => 'producto', 'uses' => 'ProductoController@producto']);
 Route::get('/servicios', ['as' => 'servicios', 'uses' => 'ServiciosController@index']);
 Route::get('/carrito', ['as' => 'carrito', 'uses' => 'CarController@index']);
 Route::get('/contacto',['as' => 'contacto' ,'uses' => 'ContactoController@index']);

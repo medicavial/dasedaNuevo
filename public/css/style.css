@@ -95,6 +95,18 @@ nav .input-field label i{
  color: #3f51b5;
 }
 
+.tabs .tab a {
+    color: #3f51b5;
+}
+
+/*.tabs .tab a >.active{
+    border-bottom: 1px solid #3f51b5 !important;
+}*/
+
+.tabs .tab a:hover {
+    color: #3f51b5;
+}
+
 .lista-compras .card{
     margin: 0;
     box-shadow:0 0 0 0;
@@ -128,27 +140,6 @@ nav .input-field label i{
 }
 
 
-@media only screen and (max-width : 600px) {
-    
-    nav .brand-logo {
-        width: 70% !important;
-    }
-
-    nav ul a {
-        padding: 0 8px;
-    }
-
-    nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
-        height: 50px !important;
-        line-height: 50px !important;
-    }
-
-    .contenedor img{
-        width: 100%;
-    }
-    
-}
-
 fieldset {
     border: 1px solid #c0c0c0;
     text-align: center;
@@ -165,24 +156,38 @@ legend {
 
 
 .slider{
-    height: 390px !important
+    height: 400px;
+    margin: 0;
 }
 
-.slider .indicators {
-    /*bottom: 50px;*/
-    z-index: 2;
+.slider .row,.slider .col{
+    margin: 0;
+    padding: 0;
 }
 
-.slider .indicators .indicator-item {
-    height: 10px;
-    width: 10px;
-    margin: 0 12px;
-    background-color: #767676;
-    border-radius: 50%;
+.slider .card{
+    margin: 0;
+    height: 390px;
 }
 
-.slider .indicators .indicator-item.active{
-    background-color: #fff !important;
+.slider img{
+    width: 100%;
+    height: 100%;
+}
+
+.rn-carousel-control {
+    background-color: white;
+    color: black;
+    padding: 10px;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+}
+
+.rn-carousel-control{
+    top: 200px !important;
+}
+
+.justify{
+    text-align: justify;
 }
 
 nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
@@ -195,8 +200,9 @@ nav .brand-logo {
 }
 
 nav .brand-logo img{
-    width: 100%;
+    width: 80%;
     height: 55px;
+    padding: 10px;    
 }
 
 .navbar-fixed {
@@ -384,4 +390,59 @@ nav .brand-logo img{
 .precio{
     font-size: 3em;
     color: #ff9100; 
+}
+
+
+@media only screen and (max-width : 600px) {
+    
+    .container {
+        width: 95%;
+    }
+
+    nav .brand-logo {
+        width: 70% !important;
+    }
+
+    nav .brand-logo img{
+        width: 100%;
+    }
+
+    nav ul a {
+        padding: 0 8px;
+    }
+
+    nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
+        height: 50px !important;
+        line-height: 50px !important;
+    }
+
+    .contenedor img{
+        width: 100%;
+    }
+
+
+    .slider{
+        height: 250px !important;
+        margin: 0;
+    }
+
+    .rn-carousel-control{
+        top: 125px !important;
+    }
+    
+}
+
+@media only screen and (min-width : 1380px) {
+
+    .slider{
+        width: 70%;
+        height: 500px !important;
+        margin: 0 auto;
+        position: relative;
+    }
+
+    .rn-carousel-control{
+        top: 250px !important;
+    }
+    
 }
