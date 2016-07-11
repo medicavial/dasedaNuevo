@@ -34,6 +34,10 @@ Route::group(array('prefix' => 'api','before' => 'authenticate'), function(){
 	Route::resource('marcas', 'MarcasController');
 
 });
+
+Route::get('test',function(){
+	return SubCategory::all();
+});
 	
 
 

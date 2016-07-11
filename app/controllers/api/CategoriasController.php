@@ -38,6 +38,16 @@ class CategoriasController extends \BaseController {
 
 		$categoria_id = $categoria->id;
 
+
+		$subCategorias = Input::get('subCategorias');
+
+		foreach ($subCategorias as $subCategoria) {
+			$subCat = new SubCategory;
+			$subCat->nombre = $subCategoria['nombre'];
+			$subCat->category_id = $categoria_id;
+			$subCat->save();
+		}
+
 	    if ($categoria_id != NULL) {
 	        $response["error"] = false;
 	        $response["message"] = "Categoria guardada correctamente";
@@ -59,7 +69,16 @@ class CategoriasController extends \BaseController {
 	 */
 	public function show($id)
 	{
-		return Category::find($id);
+		$catInfo = Category::find($id);
+		$subCats = SubCategory::where('category_id',$id)->get();
+
+		$respuesta = array(
+			'nombre' => $catInfo->nombre,
+			'activated' => $catInfo->activated,
+			'subCategorias' => $subCats
+		);
+
+		return $respuesta;
 	}
 
 
