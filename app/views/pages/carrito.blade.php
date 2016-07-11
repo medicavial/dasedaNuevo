@@ -1,184 +1,104 @@
 @extends('layouts.default')
 @section('content')
-
-	<section id="cart_items">
-		<div class="container">
-			<div class="breadcrumbs">
-				<ol class="breadcrumb">
-				  <li><a href="#">Home</a></li>
-				  <li class="active">Carrito de Compras</li>
-				</ol>
-			</div>
-			<div class="table-responsive cart_info">
-				<table class="table table-condensed">
-					<thead>
-						<tr class="cart_menu">
-							<td class="image">Item</td>
-							<td class="description">Descipción</td>
-							<td class="price">Precio</td>
-							<td class="quantity">Cantidad</td>
-							<td class="total">Total</td>
-							<td></td>
-						</tr>
-					</thead>
-					<tbody>
-						<tr>
-							<td class="cart_product">
-								<a href=""><img src="images/cart/one.png" alt=""></a>
-							</td>
-							<td class="cart_description">
-								<h4><a href="">Colorblock Scuba</a></h4>
-								<p>Web ID: 1089772</p>
-							</td>
-							<td class="cart_price">
-								<p>$59</p>
-							</td>
-							<td class="cart_quantity">
-								<div class="cart_quantity_button">
-									<a class="cart_quantity_up" href=""> + </a>
-									<input class="cart_quantity_input" type="text" name="quantity" value="1" autocomplete="off" size="2">
-									<a class="cart_quantity_down" href=""> - </a>
-								</div>
-							</td>
-							<td class="cart_total">
-								<p class="cart_total_price">$59</p>
-							</td>
-							<td class="cart_delete">
-								<a class="cart_quantity_delete" href=""><i class="fa fa-times"></i></a>
-							</td>
-						</tr>
-
-						<tr>
-							<td class="cart_product">
-								<a href=""><img src="images/cart/two.png" alt=""></a>
-							</td>
-							<td class="cart_description">
-								<h4><a href="">Colorblock Scuba</a></h4>
-								<p>Web ID: 1089772</p>
-							</td>
-							<td class="cart_price">
-								<p>$59</p>
-							</td>
-							<td class="cart_quantity">
-								<div class="cart_quantity_button">
-									<a class="cart_quantity_up" href=""> + </a>
-									<input class="cart_quantity_input" type="text" name="quantity" value="1" autocomplete="off" size="2">
-									<a class="cart_quantity_down" href=""> - </a>
-								</div>
-							</td>
-							<td class="cart_total">
-								<p class="cart_total_price">$59</p>
-							</td>
-							<td class="cart_delete">
-								<a class="cart_quantity_delete" href=""><i class="fa fa-times"></i></a>
-							</td>
-						</tr>
-						<tr>
-							<td class="cart_product">
-								<a href=""><img src="images/cart/three.png" alt=""></a>
-							</td>
-							<td class="cart_description">
-								<h4><a href="">Colorblock Scuba</a></h4>
-								<p>Web ID: 1089772</p>
-							</td>
-							<td class="cart_price">
-								<p>$59</p>
-							</td>
-							<td class="cart_quantity">
-								<div class="cart_quantity_button">
-									<a class="cart_quantity_up" href=""> + </a>
-									<input class="cart_quantity_input" type="text" name="quantity" value="1" autocomplete="off" size="2">
-									<a class="cart_quantity_down" href=""> - </a>
-								</div>
-							</td>
-							<td class="cart_total">
-								<p class="cart_total_price">$59</p>
-							</td>
-							<td class="cart_delete">
-								<a class="cart_quantity_delete" href=""><i class="fa fa-times"></i></a>
-							</td>
-						</tr>
-					</tbody>
-				</table>
+	
+	<nav>
+		<div class="row nav-wrapper indigo">
+			<div class="col s12">
+				<a href="#!" class="breadcrumb">Inicio</a>
+				<a href="#!" class="breadcrumb">Productos</a>
+				<a href="#!" class="breadcrumb">Carrito</a>
 			</div>
 		</div>
-	</section> <!--/#cart_items-->
+	</nav>
 
-	<section id="do_action">
-		<div class="container">
-			<div class="heading">
-				<h3>What would you like to do next?</h3>
-				<p>Choose if you have a discount code or reward points you want to use or would like to estimate your delivery cost.</p>
+	<section class="container">
+		<h1 class="titulo-producto">Carrito de compras</h1>
+		<div class="divider"></div>
+		<br>
+		<!-- <div class="row card-panel">
+			<div class="col m12">
+				<table class="centered responsive-table">
+			        <thead>
+						<tr>
+							<th></th>
+							<th data-field="id">Producto</th>
+							<th data-field="name">Cantidad</th>
+							<th data-field="price">Precio</th>
+						</tr>
+			        </thead>
+
+			        <tbody>
+						<tr>
+							<td>								
+								<img src="http://www.walmart.com.mx/images/products/img_large/00822248632411l.jpg" alt="" class="circle responsive-img item">
+							</td>
+							<td>								
+								Funda con Teclado DGL Negra para Tablet de 7 pulgadas
+							</td>
+							<td>
+								<button class="btn-flat waves-effect "><i class="material-icons">remove</i></button> 2 <button class="btn-flat waves-effect "><i class="material-icons">add</i></button>
+							</td>
+							<td>
+								$119
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<img src="http://www.walmart.com.mx/images/products/img_large/00088590978843l.jpg" alt="" class="circle responsive-img item">
+							</td>
+							<td>
+								Smart Cover para iPad Mini Mod. MF059ZM/A 
+							</td>
+							<td>
+								<button class="btn-flat waves-effect "><i class="material-icons">remove</i></button> 3 <button class="btn-flat waves-effect "><i class="material-icons">add</i></button>
+							</td>
+							<td>
+								$600
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<img src="http://www.walmart.com.mx/images/products/img_large/00081698301005l.jpg" alt="" class="circle responsive-img item">
+							</td>
+							<td>
+								Adaptador HDMI Retráctil Retrak para mini y micro HDMI y DVI 
+							</td>
+							<td>
+								<button class="btn-flat waves-effect "><i class="material-icons">remove</i></button> 3 <button class="btn-flat waves-effect "><i class="material-icons">add</i></button>
+							</td>
+							<td>
+								$489
+							</td>
+						</tr>
+			        </tbody>
+			        <tfoot>
+			        	<tr>
+			        		<td></td>
+			        		<td colspan="3" class="right-align"> <strong class="total">Total : $1208 </strong>  </td>
+			        	</tr>
+			        </tfoot>
+			    </table>				
 			</div>
-			<div class="row">
-				<div class="col-sm-6">
-					<div class="chose_area">
-						<ul class="user_option">
-							<li>
-								<input type="checkbox">
-								<label>Use Coupon Code</label>
-							</li>
-							<li>
-								<input type="checkbox">
-								<label>Use Gift Voucher</label>
-							</li>
-							<li>
-								<input type="checkbox">
-								<label>Estimate Shipping & Taxes</label>
-							</li>
-						</ul>
-						<ul class="user_info">
-							<li class="single_field">
-								<label>Country:</label>
-								<select>
-									<option>United States</option>
-									<option>Bangladesh</option>
-									<option>UK</option>
-									<option>India</option>
-									<option>Pakistan</option>
-									<option>Ucrane</option>
-									<option>Canada</option>
-									<option>Dubai</option>
-								</select>
-								
-							</li>
-							<li class="single_field">
-								<label>Region / State:</label>
-								<select>
-									<option>Select</option>
-									<option>Dhaka</option>
-									<option>London</option>
-									<option>Dillih</option>
-									<option>Lahore</option>
-									<option>Alaska</option>
-									<option>Canada</option>
-									<option>Dubai</option>
-								</select>
-							
-							</li>
-							<li class="single_field zip-field">
-								<label>Zip Code:</label>
-								<input type="text">
-							</li>
-						</ul>
-						<a class="btn btn-default update" href="">Get Quotes</a>
-						<a class="btn btn-default check_out" href="">Continue</a>
-					</div>
-				</div>
-				<div class="col-sm-6">
-					<div class="total_area">
-						<ul>
-							<li>Cart Sub Total <span>$59</span></li>
-							<li>Eco Tax <span>$2</span></li>
-							<li>Shipping Cost <span>Free</span></li>
-							<li>Total <span>$61</span></li>
-						</ul>
-							<a class="btn btn-default update" href="">Update</a>
-							<a class="btn btn-default check_out" href="">Check Out</a>
-					</div>
+			<div class="center-align">
+				<button class="waves-effect waves-light btn indigo"><i class="material-icons right">keyboard_arrow_right</i>Comprar Ahora</button>				
+			</div>
+			
+		</div> -->
+		<div class="row card-panel">
+			<div class="col m12 center-align">
+				<h3>Tu Carrito Esta Vacio =(</h3>
+				<p>Recuerda que tenemos los mejores productos al mejor precio, <strong>y si no lo tenemos te lo conseguimos</strong> </p>
+				<br>
+				<div class="center-align">
+					<button class="waves-effect waves-light btn indigo"><i class="material-icons right">shopping_cart</i>Mirar Productos</button>				
+					<button class="waves-effect waves-light btn indigo"><i class="material-icons right">question_answer</i>Preguntar por un producto</button>				
 				</div>
 			</div>
 		</div>
-	</section><!--/#do_action-->
+	</section>
+
+
+
+
 
 @stop

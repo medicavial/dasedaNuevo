@@ -5,6 +5,7 @@
 		<artcle class="col m12">
 			<h1 class="titulo-producto">Funda con Teclado DGL Negra para Tablet de 7 pulgadas</h1>
 			<div class="divider"></div>
+			<br>
 			<div class="card row">
 				<div class="col s12 m6 imagen-principal">
 					<img src="http://www.walmart.com.mx/images/products/img_large/00822248632411l.jpg" />
